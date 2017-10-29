@@ -1,0 +1,16 @@
+body{
+	width: 100%;
+}
+
+div{
+	width: 30%;
+	height: 0;
+	padding-bottom: 30%;
+	border-radius: 8%;
+	margin: 1%;
+	background-color: orange;
+	float: left;
+}
+
+
+
