@@ -1,16 +1,9 @@
-body{
-	width: 100%;
-}
-
 div{
-	width: 30%;
+	width: 31%;
 	height: 0;
-	padding-bottom: 30%;
+	padding-bottom: 31%;
 	border-radius: 8%;
-	margin: 1%;
+	margin: 1.16666667%;
 	background-color: orange;
 	float: left;
 }
-
-
-
