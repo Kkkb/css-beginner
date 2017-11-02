@@ -1,0 +1,49 @@
+*{
+	background-color: rgb(104,205,213);
+	color: white;
+}
+
+p{
+	margin-left: 2em;
+	margin-right: 2em;
+	text-align: center;
+	font-size: 2em;
+}
+
+a{
+	position: relative;
+	top: -2.2em;
+	font-family:"Times New Roman";
+	text-decoration: none;
+	font-size: 0.85em;
+}
+#header{
+	margin-top: 8em;
+	top: 18%;
+	text-align: center;
+}
+
+#return{
+	margin: 1em;
+}
+
+#footer-left{
+	float: left;
+	margin: 12em 6em;
+}
+
+#footer-right{
+	float: right;
+	margin: 12em 6em;
+}
+
+#grape1{
+	position: absolute;
+	top:-5em;
+	left: -6em;
+}
+
+#user{
+	position: absolute;
+	top: 33em;
+}
