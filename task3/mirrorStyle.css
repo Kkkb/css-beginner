@@ -3,10 +3,8 @@
 	color: white;
 }
 
-p{
-	margin-left: 2em;
-	margin-right: 2em;
-	text-align: center;
+p{	
+	margin: 2em;
 	font-size: 2em;
 }
 
@@ -17,6 +15,12 @@ a{
 	text-decoration: none;
 	font-size: 0.85em;
 }
+
+h2{
+	margin: 0;
+	font-size: 1.2em;
+}
+
 #header{
 	margin-top: 8em;
 	top: 18%;
@@ -27,15 +31,6 @@ a{
 	margin: 1em;
 }
 
-#footer-left{
-	float: left;
-	margin: 12em 6em;
-}
-
-#footer-right{
-	float: right;
-	margin: 12em 6em;
-}
 
 #grape1{
 	position: absolute;
@@ -43,7 +38,10 @@ a{
 	left: -6em;
 }
 
-#user{
-	position: absolute;
-	top: 33em;
+#bottom{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 8em;
 }
+
