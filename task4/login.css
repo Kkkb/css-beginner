@@ -1,0 +1,59 @@
+body{
+	font-size: 62.5%;
+	margin: 0;
+	background-color: #eff0f4;
+}
+
+header{
+	background-color: #5fc0cd;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	height: 8.7em;
+}
+
+.close{
+	margin: 0 1em;
+	font-size: 3em;
+}
+
+.signIn{
+	font-size: 3.3em;
+}
+
+.signUp{
+	margin: 0 1em;
+	font-size: 3em;
+}
+
+.form_input{
+	-web-kit-appearance: none;
+	_moz-appearance: none;
+	height: 8em;
+	width: 100%;
+	margin-top: 1.6em;
+}
+
+.button{
+	height: 2.9em;
+	width: 100%;
+	margin-top: 2.3em;
+	border: none;
+	background-color: #5fc0cd;
+	color: white;
+	font-size: 3.3em;
+
+}
+
+.forget{
+	font-size: 3em;
+	float: right;
+	color: #5fc0cd;
+	margin-right: 1em;
+}
+
+::-webkit-input-placeholder{
+	font-size: 2em;
+}
