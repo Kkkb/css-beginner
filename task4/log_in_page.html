@@ -4,30 +4,41 @@
 	<title>Log in...</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="login.css">
+	<script type="text/javascript">
+		function rec(){
+			var mychar="密码是******";
+			alert(mychar);		
+		}
+
+		function login(){
+			var wait="登录中···";
+			alert(wait);
+		}
+	</script>
 </head>
 <body>
 	<header>
 		<div class="close">关闭</div>
-		<div class="signIn">登陆</div>
+		<div class="signIn">登录</div>
 		<div class="signUp">注册</div>
 	</header>
 
 	<main>
 		<form>
 			<div class="input_control">
-				<input type="text" class="form_input" name="phoneNumber" placeholder="     请输入手机号">
+				<input type="text" class="form_input1" name="phoneNumber" placeholder="请输入手机号">
 			</div>
 
 			<div class="input_control">
-				<input type="password" class="form_input" name="password" placeholder="     请输入密码">
+				<input type="password" class="form_input2" name="password" placeholder="请输入密码">
 			</div>
 		</form>
 
-		<button class="button">登陆</button>
+		<button class="button" onclick="login()">登录</button>
 	</main>
 
 	<div>
-		<div class="forget">忘记密码?</div>
+		<div class="forget" onclick="rec()">忘记密码?</div>
 	</div>
 
 </body>

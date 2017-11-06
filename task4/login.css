@@ -28,23 +28,50 @@ header{
 	font-size: 3em;
 }
 
-.form_input{
-	-web-kit-appearance: none;
-	_moz-appearance: none;
-	height: 8em;
-	width: 100%;
-	margin-top: 1.6em;
+.form_input1{
+	/*-web-kit-appearance: none;
+	_moz-appearance: none;*/
+	/*height: 8em;*/
+	width: 83%;
+	margin-top: 0.82em;
+	border: 0;
+	padding: 1em 0;
+	outline: none;
+	font-size: 3em;
+	padding-left: 17%;
+	/*position: relative;
+	left: 6em;*/
+	/*background-clip:  */
+	background: url(file:///F:/HTML/xzy/task4/img/phone.png) no-repeat 5% 50%; 
+	background-color: white;
+}
+
+.form_input2{
+	/*-web-kit-appearance: none;
+	_moz-appearance: none;*/
+	/*height: 8em;*/
+	width: 83%;
+	margin-top: 0.82em;
+	border: 0;
+	padding: 1em 0;
+	outline: none;
+	font-size: 3em;
+	padding-left: 17%;
+	/*position: relative;
+	left: 6em;*/
+	/*background-clip:  */
+	background: url(file:///F:/HTML/xzy/task4/img/lock.png) no-repeat 5% 50%; 
+	background-color: white;
 }
 
 .button{
 	height: 2.9em;
 	width: 100%;
-	margin-top: 2.3em;
+	margin-top: 0.8em;
 	border: none;
 	background-color: #5fc0cd;
 	color: white;
 	font-size: 3.3em;
-
 }
 
 .forget{
@@ -52,8 +79,12 @@ header{
 	float: right;
 	color: #5fc0cd;
 	margin-right: 1em;
+	text-decoration: underline;
 }
 
 ::-webkit-input-placeholder{
-	font-size: 2em;
+	/*font-size: 2em;*/
+	color: rgb(233,236,237);
+	/*height: 3em;*/
 }
+
