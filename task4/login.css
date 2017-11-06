@@ -42,7 +42,7 @@ header{
 	/*position: relative;
 	left: 6em;*/
 	/*background-clip:  */
-	background: url(https://kkkb.github.io/css-beginner/task4/img/phone.png) no-repeat 5% 50%; 
+	background: url(./img/phone.png) no-repeat 5% 50%; 
 	background-color: white;
 }
 
@@ -60,7 +60,7 @@ header{
 	/*position: relative;
 	left: 6em;*/
 	/*background-clip:  */
-	background: url(https://kkkb.github.io/css-beginner/task4/img/lock.png) no-repeat 5% 50%; 
+	background: url(./img/lock.png) no-repeat 5% 50%; 
 	background-color: white;
 }
 
