@@ -9,6 +9,9 @@ header{
 	color: white;
 	height: 3.6rem;
 	text-align: center;
+	/*position: fixed;
+	/*left: 0;
+	top: 0;*/
 }
 
 .close{
@@ -32,35 +35,36 @@ header{
 }
 
 .form_input1{
-	width: 83%;
-	margin-top: 0.82em;
+	width: 888rem;
+	margin-top: 0.5em;
 	border: 0;
 	padding: 1em 0;
 	outline: none;
 	font-size: 3em;
-	padding-left: 17%;
-	background: url(./img/phone.png) no-repeat 5% 50%; 
+	padding-left: 6rem;
+	background: url(./img/phone.png) no-repeat 1.6rem 50%; 
 	background-color: white;
-	background-size: 1em ;
+	background-size: 3em ;
+
 }
 
 .form_input2{
-	width: 83%;
-	margin-top: 0.82em;
+	width: 888rem;
+	margin-top: 0.5em;
 	border: 0;
 	padding: 1em 0;
 	outline: none;
 	font-size: 3em;
-	padding-left: 17%;
-	background: url(./img/lock.png) no-repeat 5% 50%; 
+	padding-left: 6rem;
+	background: url(./img/lock.png) no-repeat 1.6rem 50%; 
 	background-color: white;
-	background-size: 1em;
+	background-size: 3em;
 }
 
 .button{
 	height: 2.9em;
 	width: 100%;
-	margin-top: 0.8em;
+	margin-top: 0.6em;
 	border: none;
 	background-color: #5fc0cd;
 	color: white;
@@ -77,8 +81,10 @@ header{
 
 ::-webkit-input-placeholder{
 	color: rgb(233,236,237);
-	border-left: 0.1em solid rgb(233,236,237);
-	position: relative;
-	padding-left: 6%;
+	/*border-left: 0.1em solid rgb(233,236,237);*/
+	/*position: relative;
+	padding-left: 1rem;*/
 }
+
+
 
