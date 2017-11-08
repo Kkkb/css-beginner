@@ -6,13 +6,14 @@ body{
 }
 
 header{
+	width: 100%;
 	background-color: #5fc0cd;
 	color: white;
 	height: 3.6rem;
 	text-align: center;
-	/*position: fixed;
-	/*left: 0;
-	top: 0;*/
+	position: fixed;
+	left: 0;
+	top: 0;
 }
 
 .close{
@@ -41,13 +42,10 @@ header{
 	background-color: white;
 }
 
-<<<<<<< HEAD
 .block{
 	height: 3.6rem;
 }
 
-=======
->>>>>>> parent of cbe3271... try again
 .form_input1{
 	border: 0;
 	padding: 1em 0;
@@ -78,12 +76,20 @@ header{
 	font-size: 3.3em;
 }
 
+.button:hover{
+	background-color: #5fcfcd;
+}
+
 .forget{
 	font-size: 3em;
 	float: right;
 	color: #5fc0cd;
 	margin-right: 1em;
-	text-decoration: underline;
+	text-decoration: none;
+}
+
+.forget:hover{
+	color: #666666;
 }
 
 ::-webkit-input-placeholder{
@@ -93,5 +99,6 @@ header{
 	padding-left: 1rem;*/
 }
 
-
-
+.blank{	           /*用于滚动测试header是否始终在顶部*/
+	height: 48rem;
+}
