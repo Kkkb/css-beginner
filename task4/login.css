@@ -2,6 +2,7 @@ body{
 	font-size: 36%;
 	margin: 0;
 	background-color: #eff0f4;
+	font-family: "微软雅黑 Light";
 }
 
 header{
@@ -34,40 +35,36 @@ header{
 	float: right;
 }
 
-.input_control{
+.input_control{   /*实现input宽度自适应的关键一步*/
 	width:100%;
-}
-.form_input1{
-	width: 68%;
 	margin-top: 0.5em;
+	background-color: white;
+}
+
+.form_input1{
 	border: 0;
 	padding: 1em 0;
 	outline: none;
 	font-size: 3em;
-	padding-left: 32%;
+	padding-left: 6.6rem;
 	background: url(./img/phone.png) no-repeat 1.6rem 50%; 
-	background-color: white;
-	background-size: 3em ;
-
+	background-size: 3em;
 }
 
 .form_input2{
-	width: 68%;
-	margin-top: 0.5em;
 	border: 0;
 	padding: 1em 0;
 	outline: none;
 	font-size: 3em;
-	padding-left: 32%;
+	padding-left: 6.6rem;
 	background: url(./img/lock.png) no-repeat 1.6rem 50%; 
-	background-color: white;
 	background-size: 3em;
 }
 
 .button{
 	height: 2.9em;
 	width: 100%;
-	margin-top: 0.6em;
+	margin-top: 0.2em;
 	border: none;
 	background-color: #5fc0cd;
 	color: white;
