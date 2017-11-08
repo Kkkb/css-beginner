@@ -34,14 +34,17 @@ header{
 	float: right;
 }
 
+.input_control{
+	width:100%;
+}
 .form_input1{
-	width: 888rem;
+	width: 68%;
 	margin-top: 0.5em;
 	border: 0;
 	padding: 1em 0;
 	outline: none;
 	font-size: 3em;
-	padding-left: 6rem;
+	padding-left: 32%;
 	background: url(./img/phone.png) no-repeat 1.6rem 50%; 
 	background-color: white;
 	background-size: 3em ;
@@ -49,13 +52,13 @@ header{
 }
 
 .form_input2{
-	width: 888rem;
+	width: 68%;
 	margin-top: 0.5em;
 	border: 0;
 	padding: 1em 0;
 	outline: none;
 	font-size: 3em;
-	padding-left: 6rem;
+	padding-left: 32%;
 	background: url(./img/lock.png) no-repeat 1.6rem 50%; 
 	background-color: white;
 	background-size: 3em;
