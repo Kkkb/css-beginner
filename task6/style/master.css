@@ -12,6 +12,61 @@ header {
 	text-align: center;
 }
 
+.btn {
+	border: 0 !important;
+	color: #999;
+
+}
+
+.caret {
+	margin-left: 1.2rem !important;
+}
+
+.dropdown{
+	position: relative;
+	top: 0.3rem !important;
+	left: 0.6rem !important;
+	display: flex;
+	justify-content: space-around;
+	flex: none;
+}
+
+.button {
+	position: relative;
+	top: 0.6rem;
+	left: 2rem;
+	padding: 0.6rem 1.2rem;
+	border-radius: 0.6rem;
+	text-align: center;
+	text-decoration: none;
+	border: none;
+	font-size: 1.8rem;
+}
+
+.button1 {
+	color: #fff;
+	background-color: #55a8b3;
+	transition-duration: 1s;
+}
+
+.button1:hover {
+	background-color: #fff;
+	color: #55a8b3;
+}
+
+.button2 {
+	position: relative;
+	left: 0.7rem;
+	color: #55a8b3;
+	background-color: #fff;
+	transition-duration: 0.5s;
+}
+
+.button2:hover {
+	background-color: #55a7b3;
+	color: #fff;
+}
+
 .btn-group {
 	position: relative;
 	top: 0.8rem;
@@ -34,12 +89,21 @@ header {
 	text-align: center;
 }
 
+.btn1 {
+	border-right: 1.2px solid #eee;
+}
+
+.btn2 {
+	border-right: 1.2px solid #eee;
+}
+
+
 .list {
 	z-index: -1;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	width: 100%;
 	padding-bottom: 0.8rem;
 	border-bottom: 1px solid #e1e5e7;
@@ -75,10 +139,29 @@ header {
 	top: 55rem;
 }
 
+.list7{
+	position: absolute;
+	top: 64rem;
+}
 
+.list8{
+	position: absolute;
+	top: 73rem;
+}
+
+.list9{
+	position: absolute;
+	top: 82rem;
+}
+
+.list10{
+	position: absolute;
+	top: 91rem;
+}
 
 .item {
-	flex-shrink: 0;
+	white-space: nowrap;
+	width: 38%;
 }
 
 .icon-calendar {
@@ -97,6 +180,10 @@ p {
 	top: 0.5rem;
 	left: 2.8rem;
 	font-size: 1.3rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
 }
 
 .icon-location {
@@ -105,16 +192,20 @@ p {
 	left: 0.2rem;
 }
 
+.ellipsis {
+	width: 5rem;
+}
+
 .pay {
-	float: right;
 	color: #e63b0e;
+	white-space: nowrap;
+	margin-left: 6rem;
 }
 
 .icon-back {
 	position: relative;
 	top: -0.2rem;
 	left: 0.5rem;
-	/*padding-left: 0.5;*/
 }
 
 footer {
@@ -122,12 +213,38 @@ footer {
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	height: 5rem;
+	height: 6rem;
+	display: flex;
+	justify-content: space-around;
 	border-top: 1px solid #e1e5e7;
 	background-color: #f8fafb;
 }
 
-.space {
-	height: 100rem;
+.btn-home {
+	color: #5fc0cd;
+	background-color: #f8fafb;
 }
 
+.btn-home:hover {
+	color: #5fc0cd;
+}
+.btn-search {
+	background-color: #f8fafb;
+}
+
+.btn-user {
+	background-color: #f8fafb;
+}
+
+.my {
+	position: relative;
+	top: 0.2rem;
+	padding: 0;
+}
+
+.space {
+	position: absolute;
+	top: 100rem;
+	width: 100%;
+	height: 100rem;
+}
