@@ -13,22 +13,21 @@ header {
 }
 
 .btn {
-	border: 0 !important;
+	border: 1px solid #eee;
 	color: #999;
+	width: 100% !important;
+	border-radius: 0;
+}
 
+.btn-group {
+	width: 100%;
 }
 
 .caret {
-	margin-left: 1.2rem !important;
-}
-
-.dropdown{
-	position: relative;
-	top: 0.3rem !important;
-	left: 0.6rem !important;
-	display: flex;
-	justify-content: space-around;
-	flex: none;
+	position: absolute;
+	top: 1.4rem;
+	right: 0.5rem;
+	/*margin-left: 1.2rem !important;*/
 }
 
 .button {
@@ -67,12 +66,6 @@ header {
 	color: #fff;
 }
 
-.btn-group {
-	position: relative;
-	top: 0.8rem;
-	left: 2rem;
-}
-
 #icon-map {
 	float: right;
 	margin: 1rem;
@@ -84,19 +77,24 @@ header {
 	left: 0;
 	width: 100%;
 	height: 4rem;
-	border-bottom: 1px solid #e1e5e7;
 	background-color: #fff;
 	text-align: center;
 }
 
 .btn1 {
-	border-right: 1.2px solid #eee;
+	float: left;
+	width: 33.33%;
 }
 
 .btn2 {
-	border-right: 1.2px solid #eee;
+	float: left;
+	width: 33.33%;
 }
 
+.btn3 {
+	float: left;
+	width: 33.33%;
+}
 
 .list {
 	z-index: -1;
@@ -170,7 +168,7 @@ header {
 }
 
 span {
-	padding-left: 0.7rem;
+	/*padding-left: 0.2rem;*/
 	color: #999;
 	font-size: 1.3rem;
 }
@@ -234,6 +232,10 @@ footer {
 
 .btn-user {
 	background-color: #f8fafb;
+}
+
+.btn-f {
+	border: 0;
 }
 
 .my {

@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>护工列表页</title>
 
@@ -16,10 +16,6 @@
 </head>
 <body>
 	<header>
-		<!--div class="btn-group" role="group" aria-label="...">
-			<button type="button" class="btn btn-default">找雇主</button>
-			<button type="button" class="btn btn-default">找护工</button>
-		</div-->
 		<button class="button button1">找雇主</button>
 		<button class="button button2">找护工</button>
 
@@ -27,49 +23,49 @@
 	</header>
 
 	<div class="top-list">
-	    <div class="dropdown">
+		<div class="btn1">
+	    	<div class="btn-group">
 
-			<div class="btn1">
-				<button type="button" class="btn btn-default dropdown-toggle" date-toggle="dropdown" aria-haspopup="true" aria-expanded="fales">
-				所在地   <div class="caret"></div>
+				<button  class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+				所在地   
+				<span class="caret"></span>
 				</button>
-				<ul class="dropdown-menu" role="menu">
-					<li>
-						<a herf="#">1</a>
-					</li>
-					<li>
-						<a herf="#">2</a>
-					</li>
-					<li>
-						<a herf="#">3</a>
-					</li>
+				<ul class="dropdown-menu" >
+					<li><a herf="#">北京</a></li>
+					<li><a herf="#">上海</a></li>
+					<li><a herf="#">广州</a></li>
 				</ul>
 			</div>
-	
-			<div class="btn2">
-				<button type="button" class="btn btn-default dropdown-toggle" date-toggle="dropdown" aria-haspopup="true" aria-expanded="fales">
+		</div>
+
+		<div class="btn2">
+			<div class="btn-group">
+				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="fales">
 				食宿   <div class="caret"></div>
 				</button>
 				<ul class="dropdown-menu">
-					<li><a herf="#">1</a></li>
-					<li><a herf="#">2</a></li>
-					<li><a herf="#">3</a></li>
+					<li><a herf="#">包吃</a></li>
+					<li><a herf="#">包住</a></li>
+					<li><a herf="#">包玩</a></li>
 				</ul>
 			</div>
-			
-			<div class="btn3">
-				<button type="button" class="btn btn-default dropdown-toggle" date-toggle="dropdown" aria-haspopup="true" aria-expanded="fales">
+		</div>
+
+		<div class="btn3">
+			<div class="btn-group">	
+				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="fales">
 				病人情况   <div class="caret"></div>
 				</button>
 				<ul class="dropdown-menu" >
-					<li><a herf="#">1</a></li>
-					<li><a herf="#">2</a></li>
-					<li><a herf="#">3</a></li>
+					<li><a herf="#">健康</a></li>
+					<li><a herf="#">十分健康</a></li>
+					<li><a herf="#">神仙</a></li>
 				</ul>
 			</div>
+		</div>	
 
-		</div>
 	</div>
+
 
 	<main>
 		<div class="list list1">
@@ -275,9 +271,9 @@
 	</main>
 
 	<footer>
-		<button type="button"  class="btn btn-home btn-default"><img src="imges/home.png" width="20px">  <br>首页</button>
-		<button type="button" class="btn btn-search btn-default"><img src="imges/search.png" width="50px"></button>
-		<button type="button" class="btn btn-user btn-default"><img src="imges/user.png" width="20px"><br><span class="my">我的</span></button>
+		<button type="button"  class="btn btn-home btn-default btn-f"><img src="imges/home.png" width="20px">  <br>首页</button>
+		<button type="button" class="btn btn-search btn-default btn-f"><img src="imges/search.png" width="50px"></button>
+		<button type="button" class="btn btn-user btn-default btn-f"><img src="imges/user.png" width="20px"><br><span class="my">我的</span></button>
 	</footer>
 
 	<div class="space"></div>
