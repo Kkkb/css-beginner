@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>投票页面</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style/vote.css">
+</head>
+<body>
+	<header>
+		<div class="top-vote">
+			<img src="imges/menu2.png" class="img-menu2" width="24px">
+			投票
+			<img src="imges/exit.png" class="img-exit" width="24px">
+		</div>
+
+		<div class="people-vote">
+			<span class="talk">发言讨论结束，请大家投票</span>
+			<div class="btn-audio">
+				<audio id="mp3Btn"><source src="audio/遗失的美好-张韶涵.mp3" type="audio/mpeg"/></audio>
+			</div>
+			
+			<div class="triangle"></div>
+			<span class="tips">点击得票数最多人的头像</span>
+		</div>
+
+	</header>
+
+	<main>
+		<div class="row1">
+			<div class="portrait">
+				<div class="detial">水民</div>
+				<div class="number">1号</div>
+				<img src="imges/four-option.png" class="four-option" width="90px">
+			</div>
+
+			<div class="portrait">
+				<div class="detial">水民</div>
+				<div class="number">2号</div>
+				<img src="imges/four-option.png" class="four-option" width="90px">
+			</div>
+
+			<div class="portrait">
+				<div class="detial">警察</div>
+				<div class="number">3号</div>
+			</div>
+		</div>
+
+		<div class="row2">
+			<div class="portrait">
+				<div class="detial">法官</div>
+				<div class="number">4号</div>
+			</div>
+
+			<div class="portrait">
+				<div class="detial">农民</div>
+				<div class="number">5号</div>
+			</div>
+
+			<div class="portrait">
+				<div class="detial">医生</div>
+				<div class="number">6号</div>
+		 	</div>
+		 </div>
+
+		<div class="row3">
+			<div class="portrait">
+				<div class="detial">法官</div>
+				<div class="number">7号</div>
+			</div>
+
+			<div class="portrait">
+				<div class="detial">农民</div>
+				<div class="number">8号</div>
+			</div>
+
+			<div class="portrait">
+				<div class="detial">医生</div>
+				<div class="number">9号</div>
+		 	</div>
+		 </div>
+
+		<div class="row4">
+			<div class="portrait">
+				<div class="detial">法官</div>
+				<div class="number">10号</div>
+			</div>
+
+			<div class="portrait">
+				<div class="detial">程序员</div>
+				<div class="number">11号</div>
+			</div>
+
+			<div class="portrait">
+				<div class="detial">律师</div>
+				<div class="number">12号</div>
+		 	</div>
+		 </div>
+
+		<div class="row5">
+			<div class="portrait">
+				<div class="detial">法官</div>
+				<div class="number">13号</div>
+			</div>
+
+			<div class="portrait">
+				<div class="detial">程序员</div>
+				<div class="number">14号</div>
+			</div>
+
+			<div class="portrait">
+				<div class="detial">律师</div>
+				<div class="number">15号</div>
+		 	</div>
+		 </div>
+	</main>
+	<div class="blank"></div>
+	<footer>
+		<div class="container">
+		<button class="btn btn-warning btn-lg btn-block die-btn">投死</button>
+		</div>
+	</footer>
+
+	<script src="https://cdn.bootcss.com/jquery/1.10.0/jquery.min.js"></script>
+	<!--script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script-->
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+    $(function(){
+	        //播放完毕
+	        $('#mp3Btn').on('ended', function() {
+	            console.log("音频已播放完成");
+	            $('.btn-audio').css({'background':'url(../imges/stop.png) no-repeat','background-size':'32%'});
+	        })
+	        //播放器控制
+	        var audio = document.getElementById('mp3Btn');
+	       /* audio.volume =.3;*/
+	        $('.btn-audio').click(function() {
+	            event.stopPropagation();//防止冒泡
+	            if(audio.paused){ //如果当前是暂停状态
+	                $('.btn-audio').css({'background':'url(./imges/start.png) no-repeat','background-size':'32%'});
+	                audio.play(); //播放
+	                return;
+	            }else{//当前是播放状态
+	                $('.btn-audio').css({'background':'url(./imges/stop.png) no-repeat','background-size':'32%'});
+	                audio.pause(); //暂停
+	            }
+	        });
+	    })
+	</script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+body {
+	background-color: #f0f0f0;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 6rem;
+	background-color: #29bde0;
+}
+
+.img-menu {
+	position: relative;
+	top: 1.6rem;
+	left: 1.8rem;
+}
+
+main {
+	z-index: -2;
+	position: relative;
+	top: 6rem;
+	left: 0;
+	background-color: #f0f0f0;
+}
+
+.last-game {
+	z-index: -1;
+	position: absolute;
+	top: 0.6rem;
+	width: 90%;
+	height: 8rem;
+	margin: 2rem 5%;
+	border: 1px solid #c9c9c9;
+	font-size: 2rem;
+	color: #9a9a9a;
+	line-height: 8rem;
+	text-align: center;
+	background-color: #fff;
+}
+
+.back {
+	position: absolute;
+	right: 1rem;
+	top: 2.7rem;
+}
+
+.choose-game {
+	z-index: -1;
+	position: absolute;
+	top: 11rem;
+	width: 90%;
+	height: 60rem;
+	margin: 2rem 5%;
+	border: 1px solid #c9c9c9;
+	background-color: #fff;
+}
+
+.ghost {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 6rem;
+	text-align: center;
+	font-size: 2rem;
+	color: #fbb435;
+	border-bottom: 1px solid #fdd793;
+	line-height: 6rem;
+}
+
+.simplify {
+	position: relative;
+	top: 9rem;
+}
+
+.btn {
+	height: 10rem;
+	border-radius: 0;
+	background-color: #69d1e9;
+}
+
+.guess {
+	position: relative;
+	top: 13rem;
+}
+
+.git {
+	position: relative;
+	top: 17rem;
+}
+
+.people1 {
+	position: relative;
+	top: 11rem;
+	text-align: center;
+	color: #777;
+}
+
+.people2 {
+	position: relative;
+	top: 15rem;
+	text-align: center;
+	color: #777;
+}
+
+.people3 {
+	position: relative;
+	top: 19rem;
+	text-align: center;
+	color: #777;
+}
+
+.next-page {
+	position: absolute;
+	top: 42rem;
+	right: 7%;
+}
+
+.myCircle {
+	z-index: -1;
+	position: relative;
+	top: 70rem;
+	width: 8rem;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+.circle {
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background-color: #69d1e9;
+}
+
+.cir2 {
+	/*position: relative;
+	left: 1rem;*/
+	background-color: #ccc;
+}
+.cir3 {
+	background-color: #ccc;
+}
+
+.cir4 {
+	background-color: #ccc;
+}
+
+.triangle {
+	border-left: 1.5rem solid #f8b547;
+	border-top: 1.5rem solid #fff;
+	border-bottom: 1.5rem solid #fff;
+	width: 0px;
+	height: 0px;
+}
