@@ -3,6 +3,7 @@ body {
 }
 
 header {
+	z-index: 1;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -13,12 +14,11 @@ header {
 
 .btn-audio {
 	position: absolute;
-	right: -6.5rem;
+	right: 3.6rem;
 	top: 0.8em;
-	width: 120px;
-	height: 120px;
+	width: 36px;
+	height: 36px;
 	background: url(../imges/start.png) no-repeat;
-	background-size: 32%;
 }
 
 .top-vote {
@@ -109,9 +109,9 @@ header {
 }
 
 .portrait {
-	z-index: -2;
-	width: 8rem;
-	height: 8rem;
+
+	width: 80px;
+	height: 80px;
 	border: 3px solid #fff;
 }
 
@@ -121,7 +121,7 @@ header {
 	display: none;
 	position: relative;
 	top: 1rem;
-	left: -0.1rem;
+	left: -0.3rem;
 }
 
 .portrait:hover .four-option {
@@ -130,22 +130,22 @@ header {
 
 .detial {
 	width: 100%;
-	height: 5.2rem;
+	height: 52px;
 	background-color: #f5c97b;
 	text-align: center;
-	line-height: 5.2rem;
+	line-height: 52px;
 }
 
 .number {
 	width: 100%;
-	height: 2.22rem;
+	height: 22.2px;
 	text-align: center;
 	background-color: #83b09a;
 	color: #fff;
 } 
 
 main {
-	z-index: -2;
+	z-index: -3;/*添加这一句hover就起作用了*/
 }
 
 footer {
