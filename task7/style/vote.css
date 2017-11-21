@@ -1,14 +1,21 @@
+* {
+	
+}
+
 body {
+	margin: 0 auto;
 	background-color: #29bde0;
+	max-width: 420px;
+
 }
 
 header {
 	z-index: 1;
 	position: fixed;
 	top: 0;
-	left: 0;
 	height: 16rem;
 	width: 100%;
+	max-width: 420px;
 	background-color: #29bde0;
 }
 
@@ -19,6 +26,10 @@ header {
 	width: 36px;
 	height: 36px;
 	background: url(../imges/start.png) no-repeat;
+}
+
+.btn-audio :visited {
+	background: url(../imges/stop.png) no-repeat;
 }
 
 .top-vote {
@@ -151,9 +162,9 @@ main {
 footer {
 	position: fixed;
 	bottom: 0;
-	left: 0;
 	height: 8rem;
 	width: 100%;
+	max-width: 420px;
 	background-color: #29bde0;
 }
 
@@ -175,3 +186,12 @@ footer {
 	height: 6rem;
 }
 
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:focus, a:hover {
+    color: #29bde0;
+    text-decoration: none;
+}

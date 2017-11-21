@@ -3,7 +3,7 @@
 <head>
 	<title>投票页面</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width initial-scale=1">
+	<meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no" >
 	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style/vote.css">
 </head>
@@ -12,7 +12,7 @@
 		<div class="top-vote">
 			<img src="imges/menu2.png" class="img-menu2" width="24px">
 			投票
-			<img src="imges/exit.png" class="img-exit" width="24px">
+			<a href="index.html"><img src="imges/exit.png" class="img-exit" width="24px"></a>
 		</div>
 
 		<div class="people-vote">
@@ -131,7 +131,7 @@
 	<div class="blank"></div>
 	<footer>
 		<div class="container">
-		<button class="btn btn-warning btn-lg btn-block die-btn">投死</button>
+		<button class="btn btn-warning btn-lg btn-block die-btn"><a href="result.html">投死</a></button>
 		</div>
 	</footer>
 
@@ -143,7 +143,7 @@
 	        //播放完毕
 	        $('#mp3Btn').on('ended', function() {
 	            console.log("音频已播放完成");
-	            $('.btn-audio').css({'background':'url(../imges/stop.png) no-repeat','background-size':'32%'});
+	            $('.btn-audio').css({'background':'url(../imges/stop.png) no-repeat'});
 	        })
 	        //播放器控制
 	        var audio = document.getElementById('mp3Btn');
