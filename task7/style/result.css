@@ -36,6 +36,12 @@ main {
 	background-color: #29bde0;
 }
 
+.record-wrap {
+	max-width: 400px;
+	height: 802px;
+	border: 1px solid #ddd;
+}
+
 .win {
 	/*position: absolute;
 	top: 60px;*/

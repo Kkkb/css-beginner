@@ -1,12 +1,15 @@
 body {
-	background-color: #f0f0f0;
+	margin: 0 auto;
+	max-width: 400px;
+
 }
 
 header {
+	z-index: 2;
 	position: fixed;
 	top: 0;
-	left: 0;
 	width: 100%;
+	max-width: 400px;
 	height: 6rem;
 	background-color: #29bde0;
 }
@@ -18,10 +21,13 @@ header {
 }
 
 main {
-	z-index: -2;
+	z-index: 1;
 	position: relative;
 	top: 6rem;
 	left: 0;
+	max-width: 400px;
+	height: 748px;
+	border: 1px solid #d7d7d7;
 	background-color: #f0f0f0;
 }
 
