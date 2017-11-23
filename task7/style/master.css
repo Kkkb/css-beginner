@@ -1,7 +1,7 @@
 body {
 	margin: 0 auto;
 	max-width: 400px;
-
+	background-color: #f0f0f0;
 }
 
 header {
@@ -26,7 +26,7 @@ main {
 	top: 6rem;
 	left: 0;
 	max-width: 400px;
-	height: 748px;
+	height: 751px;
 	border: 1px solid #d7d7d7;
 	background-color: #f0f0f0;
 }
@@ -49,7 +49,8 @@ main {
 .back {
 	position: absolute;
 	right: 1rem;
-	top: 2.7rem;
+	top: 1.2rem;
+	margin: 16px;
 }
 
 .choose-game {
