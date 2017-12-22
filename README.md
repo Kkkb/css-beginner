@@ -1,5 +1,5 @@
 # css-beginner
- - blogY --- [Kkkb的博客](blog-hexo-theme-yilia)
+ - blogY --- [Kkkb的博客](https://kkkb.github.io/css-beginner/blogY/)
  
  - nine ---- [九宫格](https://kkkb.github.io/css-beginner/nine/Nine.html) 
  
