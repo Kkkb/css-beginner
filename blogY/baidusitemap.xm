@@ -4,7 +4,7 @@
 
     
   <url>
-    <loc>https://kkkb.github.io/css-beginner/blogY/2017/12/21/%E8%BF%87%E5%8E%BB%E7%9A%84%E6%89%BF%E8%AF%BA%E5%90%97/</loc>
+    <loc>https://kkkb.github.io/css-beginner/blogY/css-beginner/blogY/2017/12/21/%E8%BF%87%E5%8E%BB%E7%9A%84%E6%89%BF%E8%AF%BA%E5%90%97/</loc>
     <lastmod>2017-12-21T14:18:22.532Z</lastmod>
     <data>
         <display>
@@ -21,7 +21,7 @@
 
     
   <url>
-    <loc>https://kkkb.github.io/css-beginner/blogY/2017/12/18/My-favorite-music/</loc>
+    <loc>https://kkkb.github.io/css-beginner/blogY/css-beginner/blogY/2017/12/18/My-favorite-music/</loc>
     <lastmod>2017-12-20T19:06:57.582Z</lastmod>
     <data>
         <display>
@@ -38,7 +38,7 @@
 
     
   <url>
-    <loc>https://kkkb.github.io/css-beginner/blogY/2017/12/14/My-encrypt-page/</loc>
+    <loc>https://kkkb.github.io/css-beginner/blogY/css-beginner/blogY/2017/12/14/My-encrypt-page/</loc>
     <lastmod>2017-12-20T18:26:04.466Z</lastmod>
     <data>
         <display>
@@ -59,7 +59,7 @@
 
     
   <url>
-    <loc>https://kkkb.github.io/css-beginner/blogY/2017/12/06/hello-world/</loc>
+    <loc>https://kkkb.github.io/css-beginner/blogY/css-beginner/blogY/2017/12/06/hello-world/</loc>
     <lastmod>2017-12-18T15:48:16.315Z</lastmod>
     <data>
         <display>
@@ -76,7 +76,7 @@
 
     
   <url>
-    <loc>https://kkkb.github.io/css-beginner/blogY/2017/12/07/2017-12-7-Hello/</loc>
+    <loc>https://kkkb.github.io/css-beginner/blogY/css-beginner/blogY/2017/12/07/2017-12-7-Hello/</loc>
     <lastmod>2017-12-18T08:45:30.447Z</lastmod>
     <data>
         <display>
